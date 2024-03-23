@@ -1,0 +1,79 @@
+/* 4- External */
+
+body{
+    padding-bottom: 500px;
+}
+
+h3{
+    color: green;
+}
+
+/* Classes */
+.paragrafo{
+    background-color: black;
+    color: rgb(15, 183, 255);
+    padding: 5px;
+}
+
+/* ids */
+
+#exclusive-title{
+    background-color: blueviolet;
+    color: gold;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Ordem das regras */
+
+h2{
+    border-bottom: 1px solid red;
+
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom:  4px solid green;
+}
+
+/* Nome de cores */
+
+.color-name{
+    color: crimson;
+}
+
+/* hex */
+
+.hex{
+    color: #55a398;
+}
+
+/* Mais sobre hex */
+
+.simple-hex{
+    color: #333;
+}
+
+.simple-hex-2{
+    color: #a5f;
+}
+
+/* RGB */
+
+.rgb{
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb{
+    color: rgb(23, 147, 230);
+    
+}
+
+/* RGBA */
+
+.rgba{
+    color: rgba( 100, 22, 100, 0.3);
+}
