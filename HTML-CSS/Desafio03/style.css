@@ -1,0 +1,14 @@
+#box-model{
+    margin: 15px 20px;
+    padding: 25px;
+    border: 10px solid rgb(30, 203, 65);
+    outline: 10px solid red;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.titulo{
+    background-color: cadetblue;
+    color: coral;
+    border: none;
+}
