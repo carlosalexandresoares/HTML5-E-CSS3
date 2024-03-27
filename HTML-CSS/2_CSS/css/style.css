@@ -150,3 +150,50 @@ h2{
     height: 400px;
     
 }
+
+
+/* Text aling */
+
+.text-aling{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 2px solid red;
+}
+
+.container-center{
+    margin: auto;
+}
+
+/* text decoration */
+
+.underline{
+    text-decoration: underline;
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remove-underline{
+    text-decoration: none;
+}
+
+/* Text transform */
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* letter spacing */
+
+.spacing{
+    letter-spacing: 10px;
+}
