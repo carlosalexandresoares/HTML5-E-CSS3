@@ -197,3 +197,81 @@ h2{
 .spacing{
     letter-spacing: 10px;
 }
+
+/* fontes */
+
+.serif{
+    font-family: georgia;
+}
+
+.spacing{
+    font-family: helvetica;
+}
+
+.monospace{
+    font-family: 'Courier New';
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* text style */
+
+.italic{
+    font-style: italic;
+    color: #333;
+}
+
+.obliquo{
+    font-style: oblique;
+}
+
+/* font weight */
+
+.thin, .bold, .bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* font-size */
+
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 80px;
+}
+
+/* Display */
+
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #55a398;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.block{
+    background-color: #a5f;
+    display: block;
+    margin: 10px;
+}
