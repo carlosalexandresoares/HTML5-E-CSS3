@@ -275,3 +275,128 @@ h2{
     display: block;
     margin: 10px;
 }
+
+.invisible{
+    display: none;
+}
+
+/* static */
+
+.static{
+    position: static;
+    background-color: #55a398;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+/* reletive */
+
+.relative{
+    position: relative;
+    background-color: #1b2221;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* absolute */
+
+.absolute{
+    position: absolute;
+    background-color: #839167;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* absolute e relative */
+
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute1,.absolute2{
+   width: 50px;
+   height: 50px;
+   background-color: #a5f;
+   position: absolute; 
+
+}
+/*
+.absolute1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute2{
+    bottom: 10px;
+    right: 10px;
+}
+*/
+
+/* fixed */
+
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: darkgreen;
+    border: 1px solid rgb(0, 162, 255);
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/* sticky */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 78, 220);
+    border: 1px solid rgb(221, 40, 188);
+    margin-top: 120px;
+    position: sticky; 
+}
+
+/* z-index */
+
+.absolute1,
+.absolute2,
+.absolute3,
+.absolute4,
+.absolute5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(236, 240, 5);
+    position: absolute; 
+ 
+ }
+
+ .absolute3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+ }
+
+ .absolute4{
+    top: 10px;
+    left: 10px;
+    background-color: tomato;
+    z-index: 2;
+ }
+
+ .absolute5{
+    top: 40px;
+    left: 40px;
+    background-color: #55a398;
+    z-index: 1;
+ }
