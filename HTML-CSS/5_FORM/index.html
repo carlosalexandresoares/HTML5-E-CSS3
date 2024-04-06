@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h2>Formulérios HTML</h2>
-       
-        <form class="form">
-            <div>
-                <label>Nome:</label>
-                <input type="text">
-            </div>
-        </form>
- 
+    <!-- 1 primerio formulário -->
+    <!-- 2 Atributos do formulário -->
+    <form class="form" action="register.php" method="post">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <!-- 3 atributo name -->
+        <div>
+            <label>Idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- 4 atributo label  -->
+        <div>
+            <label for="name">Nome da mãe:</label>
+            <input type="text" name="name">
+        </div>
+
+    </form>
+
 </body>
+
 </html>
