@@ -28,6 +28,65 @@
             <label for="name">Nome da mãe:</label>
             <input type="text" name="name">
         </div>
+        <!-- 6 elemento select -->
+        <div>
+            <label for="job">Selecione a sua profissão:</label>
+            <select name="job" id="">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DeveOps</option>
+            </select>
+        </div>
+
+        <!-- 7 atributo selected -->
+        <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract" id="">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+        <!-- 8 multiplas opções -->
+        <div>
+            <label for="items">Selecione os intens desejados:</label>
+            <select name="items" id="" multiple>
+                <option value="pera">Pera</option>
+                <option value="feijao">Feijão</option>
+                <option value="arroz">Arroz</option>
+            </select>
+        </div>
+        <!-- 9 textarea -->
+        <div>
+            <label for="comment"> Escreva abaixo o que você achou do post:</label>
+            <textarea name="comment">
+
+            </textarea>
+        </div>
+        <!-- 10 fieldset e legend -->
+        <div>
+            <fieldset>
+                <legend>Preencha as suas informções:</legend>
+                <label for="firsname">Nome:</label>
+                <input type="text" name="firsname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
+        <!-- 11 datalist -->
+        <div>
+            <label for="flavor">Ecolha o sabor:</label>
+            <input type="text" list="flavor" name="flavor">
+            <datalist id="flavor">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Abacaxi"></option>
+                <option value="Chocolate"></option>
+            </datalist>
+        </div>
+        <!-- 5 envio de form -->
+        <input type="submit" value="Enviar">
+
+        
 
     </form>
 
