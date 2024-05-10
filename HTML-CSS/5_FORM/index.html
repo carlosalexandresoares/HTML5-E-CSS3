@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h2>Formulérios HTML</h2>
+    <h2>Formulários HTML</h2>
     <!-- 1 primerio formulário -->
     <!-- 2 Atributos do formulário -->
     <form class="form" action="register.php" method="post">
@@ -82,6 +82,35 @@
                 <option value="Abacaxi"></option>
                 <option value="Chocolate"></option>
             </datalist>
+        </div>
+
+        <!-- 12 - Senha -->
+        <div>
+            <label for="password">Digite a sua senha</label>
+            <input type="password" name="password" id="">
+        </div>
+
+        <!-- 13- reiniciando o form -->
+        <input type="reset" value="Limpar">
+
+        <!-- 14 radio -->
+
+        <div>
+            <label for="car_model">Escolha o modelo do seu carro:</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car_model">
+                <label for="bmw">BMW</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" value="ferrari" name="car_model">
+                <label for="ferrari">Ferrari</label>
+            </div>
+
+            <div class="radio">
+                <input type="radio" value="gol" name="car_model">
+                <label for="gol">Gol</label>
+            </div>
         </div>
         <!-- 5 envio de form -->
         <input type="submit" value="Enviar">
