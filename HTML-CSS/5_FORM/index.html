@@ -112,11 +112,77 @@
                 <label for="gol">Gol</label>
             </div>
         </div>
-        <!-- 5 envio de form -->
-        <input type="submit" value="Enviar">
 
         
+        <!-- 15 checkbox -->
+        <div>
+            <label for="optionals">Opcionais de carro:</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+            </div>
 
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="turbo_engine">
+                <label for="turbo_engine">Motor Turbo</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="Hybrid">
+                <label for="Hybrid">Hibrido</label>
+            </div>
+        </div>
+
+        <!-- 16 Data -->
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" name="birthday">
+        </div>
+
+        <!-- 17 arquivos -->
+        <div>
+            <label for="image">Insira a sua imagem</label>
+            <input type="file" name="image">
+        </div>
+
+        <!-- 18 múmeros -->
+        <div>
+            <label for="salary">Quanto você ganha no seu trabalho atual?</label>
+            <input type="number" name="salary">
+        </div>
+
+        <!-- 19 email -->
+
+        <div>
+            <label for="email">Digite o seu e-mail:</label>
+            <input type="email" name="email">
+        </div>
+
+        <!-- 20 value -->
+        <label for="value">Digite algum valor:</label>
+        <input type="text" name="value" value="O meu valor é este">
+
+        <!-- 21 disable -->
+        <div>
+            <p>Tente mudar o valor:</p>
+            <input type="text" value="Burro" disabled>
+        </div>
+
+        <!-- 22 placeholder -->
+        <div>
+            <label for="currentjob">Digite sua profissão:</label>
+            <input type="text" name="currentjob" placeholder="No que você está trabalhando agora?">
+        </div>
+
+        <!-- 23 riquired -->
+
+        <div>
+            <label for="birthdayear">Ano nascimendo:</label>
+            <input type="text" placeholder="Digite o ano em que você nasceu" required>
+        </div>
+        
+        <!-- 5 envio de form -->
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
     </form>
 
 </body>
